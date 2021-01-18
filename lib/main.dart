@@ -55,8 +55,6 @@ class UnifiedPush {
     debugPrint(PluginUtilities.getCallbackHandle(onNotification)
         .toRawHandle()
         .toString());
-
-    _onEndpointMethod();
   }
 
   static Future<void> onMethodCall(MethodCall call) async {
